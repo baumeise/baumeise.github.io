@@ -1,11 +1,12 @@
-# amseldocs
+## amseldocs
+This is the vuepress construct for the documentation of the learning robot Amsel.
 
-## Clone project fork
+### Clone project fork
 ```
 git clone git@github.com:<YOUR-USERNAME>/amseldocs.git
 ```
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
@@ -16,7 +17,7 @@ npm run dev
 ```
 
 ### Deploy to amseldocs repository
-Change rpository links in `deploy.sh` to fit your fork
+Change repository links in `deploy.sh` to fit your fork
 ```
 npm run stage
 ```
