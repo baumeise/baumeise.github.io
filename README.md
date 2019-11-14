@@ -16,7 +16,7 @@ npm run dev
 ```
 
 ### Deploy to amseldocs repository
-Change rpository links in `deploy.sh` to fit your fork
+Change repository links in `deploy.sh` to fit your fork
 ```
 npm run stage
 ```
