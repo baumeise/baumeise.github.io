@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'Amsel',
   description: 'Official documentation for the learning robot Amsel',
   base: '/amseldocs/',
   themeConfig: {
+    logo: '/signet-white.svg',
     search: false,
     nav: [
       { text: 'Getting started', link: '/getting-started/' },
