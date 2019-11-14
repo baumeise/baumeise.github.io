@@ -1,7 +1,6 @@
 ---
 home: true
 heroImage: /logo.png
-tagline: A ESP32-based learning robot for students.
 actionText: Get Started →
 actionLink: /getting-started/
 features:

@@ -22,7 +22,7 @@ Go to [arduino.cc](https://www.arduino.cc/en/Main/Software) and download the lat
 
 ### Clone the firmware
 
-Open a terminal (you can use your builtin terminal for this)
+Execute the following in your terminal
 ``` sh
 # go to your desired directory
 cd /path/to/your/directory/
