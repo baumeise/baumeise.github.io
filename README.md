@@ -1,5 +1,10 @@
 # amseldocs
 
+## Clone project fork
+```
+git clone git@github.com:<YOUR-USERNAME>/amseldocs.git
+```
+
 ## Project setup
 ```
 npm install
@@ -7,23 +12,13 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Deploy to amseldocs repository
+Change rpository links in `deploy.sh` to fit your fork
 ```
-npm run build
+npm run stage
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Release changes
+For releasing changes open a pull request against amseldocs/gh-pages
