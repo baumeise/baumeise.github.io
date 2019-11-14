@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vuepress dev public",
     "stage": "./deploy.sh",
-    "deploy": "./deploy-live.sh" 
+    "deploy": "./deploy-live.sh"
   },
   "dependencies": {
     "vuepress": "^1.2.0"
