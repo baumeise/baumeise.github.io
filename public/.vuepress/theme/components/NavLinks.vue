@@ -122,7 +122,7 @@ export default {
   display inline-block
   a
     line-height 1.4rem
-    color #f3f3f3
+    color $textColor
     &:hover, &.router-link-active
       color $accentColor
   .nav-item
@@ -142,6 +142,7 @@ export default {
 
 @media (min-width: $MQMobile)
   .nav-links a
+    color #f3f3f3
     &:hover, &.router-link-active
       color #f3f3f3
   .nav-item > a:not(.external)
