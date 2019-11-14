@@ -7,7 +7,7 @@ set -e
 vuepress build public
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd public/.vuepress/dist
 
 git init
 git add -A

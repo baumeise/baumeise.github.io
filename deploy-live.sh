@@ -9,7 +9,7 @@ sed -i "s/\(base:\).*/\1 \'\/amsel\/\'/" ./public/.vuepress/config.js
 vuepress build public
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd public/.vuepress/dist
 
 git init
 git add -A
