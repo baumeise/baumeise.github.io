@@ -23,3 +23,6 @@ npm run stage
 ```
 ### Release changes
 For releasing changes open a pull request against amseldocs/gh-pages
+
+### License
+[MIT License](https://github.com/moritzgvt/amseldocs/blob/master/LICENSE) | Copyright © 2019 Moritz Gut (moritzgvt)
