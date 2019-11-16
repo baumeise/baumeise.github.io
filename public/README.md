@@ -10,4 +10,5 @@ features:
   details: The Amsels python library is focussed on students with little or no programming knowledge.
 - title: Onboard API 
   details: A simple and easily explorable API provided by the powerful Amsels ESP32 Chip.
+footer: MIT Licensed | Copyright © 2019 Moritz Gut (moritzgvt)
 ---
