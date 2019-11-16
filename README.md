@@ -25,4 +25,4 @@ npm run stage
 For releasing changes open a pull request against amseldocs/gh-pages
 
 ### License
-MIT Licensed | Copyright © 2019 Moritz Gut (moritzgvt)
+[MIT Licensed](https://github.com/moritzgvt/amseldocs/blob/master/LICENSE) | Copyright © 2019 Moritz Gut (moritzgvt)
