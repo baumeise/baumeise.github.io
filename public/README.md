@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /baumeise_logo.jpg
+heroImage: /baumeise_logo.png
 actionText: Get Started →
 actionLink: /amsel/
 features:
