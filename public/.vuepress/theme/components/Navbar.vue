@@ -93,6 +93,7 @@ $navbar-horizontal-padding = 1.5rem
   background: linear-gradient(90deg, rgba(0,43,80,1) 10%, rgba(0,125,121,1) 90%);
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
+  border none
   a, span, img
     display inline-block
   .logo

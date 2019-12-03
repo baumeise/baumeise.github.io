@@ -17,29 +17,31 @@
         />
       </p>
     </header>
+    <section>
 
-    <div
-      class="features"
-      v-if="data.features && data.features.length"
-    >
       <div
-        class="feature"
-        v-for="(feature, index) in data.features"
-        :key="index"
+        class="features"
+        v-if="data.features && data.features.length"
       >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <div
+          class="feature"
+          v-for="(feature, index) in data.features"
+          :key="index"
+        >
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.details }}</p>
+        </div>
       </div>
-    </div>
 
-    <Content class="theme-default-content custom"/>
+      <Content class="theme-default-content custom"/>
 
-    <div
-      class="footer"
-      v-if="data.footer"
-    >
-      {{ data.footer }}
-    </div>
+      <div
+        class="footer"
+        v-if="data.footer"
+      >
+        {{ data.footer }}
+      </div>
+    </section>
   </main>
 </template>
 
@@ -66,17 +68,19 @@ export default {
 
 <style lang="stylus">
 .home
-  padding $navbarHeight 2rem 0
-  max-width 960px
+  padding $navbarHeight 0 0
+  height "calc(100vh - %s)" % $navbarHeight
   margin 0px auto
   display block
   .hero
     text-align center
+    overflow hidden
     img
-      max-width: 100%
-      max-height 280px
+      position relative
+      height 100%
       display block
-      margin 3rem auto 1.5rem
+      left 50%
+      transform translateX(-50%)
     h1
       font-size 3rem
     h1, .description, .action
@@ -87,6 +91,10 @@ export default {
       line-height 1.3
       color lighten($textColor, 40%)
     .action-button
+      position: absolute
+      top 500px
+      left 50%
+      transform translateX(-50%)
       display inline-block
       font-size 1.2rem
       color #fff
@@ -98,6 +106,9 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         background-color lighten($accentColor, 10%)
+  section
+      box-sizing border-box
+      padding 0 3rem
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0

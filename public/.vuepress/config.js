@@ -6,17 +6,13 @@ module.exports = {
     logo: '/baumeise_signet.svg',
     search: false,
     nav: [
-      { text: 'Amsel', link: '/amsel/' },
+      { text: 'About', link: '/about/' },
+      { text: 'Project', link: '/project/' },
+      { text: 'Amsel', link: 'https://baumeise.github.io/amsel/' },
     ],
     sidebar: {
-      '/getting-started/': [
-        '/getting-started/'
-      ],
-      '/docs/': [
-        '/docs/'
-      ],
-      '/api/': [
-        '/api/'
+      '/about/': [
+        '/about/'
       ]
     }
   }

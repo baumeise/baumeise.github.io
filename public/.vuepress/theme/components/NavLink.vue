@@ -10,12 +10,11 @@
     v-else
     :href="link"
     @focusout="focusoutAction"
-    class="nav-link external"
+    class="nav-link"
     :target="isMailto(link) || isTel(link) ? null : '_blank'"
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
   >
     {{ item.text }}
-    <OutboundLink/>
   </a>
 </template>
 
