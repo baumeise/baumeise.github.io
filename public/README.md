@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /baumeise_logo.jpg
 actionText: Get Started →
-actionLink: /getting-started/
+actionLink: /amsel/
 features:
 - title: Inexpensive kit
   details: The used components are focused on a minimal price to enable each student to afford a own Amsel kit.

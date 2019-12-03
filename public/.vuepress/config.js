@@ -1,14 +1,12 @@
 module.exports = {
-  title: 'Amsel',
-  description: 'An low budget ESP32-based learning robot for students',
+  title: 'Baumeise',
+  description: 'Learn coding while plying with a robot!',
   base: '/',
   themeConfig: {
-    logo: '/signet-white.svg',
+    logo: '/baumeise_signet.svg',
     search: false,
     nav: [
-      { text: 'Getting started', link: '/getting-started/' },
-      { text: 'Documentation', link: '/docs/' },
-      { text: 'API Reference', link: '/api/' }
+      { text: 'Amsel', link: '/amsel/' },
     ],
     sidebar: {
       '/getting-started/': [
