@@ -3,6 +3,8 @@
 # abort on errors
 set -e
 
+sed -i -n "s/\(base:\).*/\1 \'\/amsel\/\'\,/" public/.vuepress/config.js
+
 # build
 vuepress build public
 
@@ -19,3 +21,4 @@ git commit -m "$any"
 git push -f git@github.com:baumeise/amsel master:gh-pages
 
 cd -
+sed -i -n "s/\(base:\).*/\1 \'\/\'\,/" public/.vuepress/config.js
