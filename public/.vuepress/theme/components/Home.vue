@@ -107,8 +107,10 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   section
-      box-sizing border-box
-      padding 0 3rem
+    box-sizing border-box
+    max-width 980px
+    margin 0 auto
+    padding 0 3rem
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
@@ -138,6 +140,16 @@ export default {
 
 @media (max-width: $MQMobile)
   .home
+    .hero
+      .action-button
+        position relative
+        margin 0 auto
+        top auto
+        left auto
+        transform none
+        margin 2.5rem 0 0
+    section 
+      padding 0 2.5rem
     .features
       flex-direction column
     .feature
@@ -146,12 +158,13 @@ export default {
 
 @media (max-width: $MQMobileNarrow)
   .home
-    padding-left 1.5rem
-    padding-right 1.5rem
     .hero
       img
         max-height 210px
-        margin 2rem auto 1.2rem
+        margin 0
+    section
+      padding-left 1.5rem
+      padding-right 1.5rem
       h1
         font-size 2rem
       h1, .description, .action
