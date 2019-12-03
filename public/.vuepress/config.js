@@ -4,6 +4,7 @@ module.exports = {
   base: '/',
   themeConfig: {
     logo: '/signet-white.svg',
+    orgLogo: '/baumeise_signet.svg',
     search: false,
     nav: [
       { text: 'Getting started', link: '/getting-started/' },

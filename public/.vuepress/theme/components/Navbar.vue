@@ -2,6 +2,17 @@
   <header class="navbar">
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
+    <a href="https://baumeise.github.io"
+      class="home-link"
+    >
+      <img
+          class="logo orglogo"
+          v-if="$site.themeConfig.orgLogo"
+          :src="$withBase($site.themeConfig.orgLogo)"
+          alt="Baumeise"
+        >
+    </a>
+
     <router-link
       :to="$localePath"
       class="home-link"
@@ -100,6 +111,8 @@ $navbar-horizontal-padding = 1.5rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
     vertical-align top
+  .orglogo
+    opacity 0.3
   .site-name
     font-size 1.3rem
     font-weight 600
