@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Amsel',
   description: 'An low budget ESP32-based learning robot for students',
-  base: '/',
+  base: '/amsel/',
   themeConfig: {
     logo: '/signet-white.svg',
     search: false,
