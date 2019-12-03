@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev public",
-    "stage": "./deploy-stage.sh",
-    "deploy": "./deploy-live.sh"
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "vuepress": "^1.2.0"

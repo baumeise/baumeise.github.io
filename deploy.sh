@@ -16,7 +16,6 @@ printf "Enter commit message: "
 read any
 git commit -m "$any"
 
-git push -f git@github.com:moritzgvt/amseldocs.git master:gh-pages
+git push -f git@github.com:baumeise/baumeise.github.io.git master:gh-pages
 
 cd -
-rm -rf node_modules
