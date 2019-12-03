@@ -2,7 +2,7 @@
 home: true
 heroImage: /baumeise_background.jpg
 actionText: Get Started →
-actionLink: /amsel/
+actionLink: /https://baumeise.github.io/amsel/
 features:
 - title: Started in a project
   details: Baumeise began in late 2019. Founded for a project at the University of Media in Stuttgart.
