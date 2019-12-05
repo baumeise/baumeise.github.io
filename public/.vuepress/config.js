@@ -9,7 +9,8 @@ module.exports = {
     nav: [
       { text: 'Getting started', link: '/getting-started/' },
       { text: 'Documentation', link: '/docs/' },
-      { text: 'API Reference', link: '/api/' }
+      { text: 'API Reference', link: '/api/' },
+      { text: 'Hardware', link: '/hardware/' }
     ],
     sidebar: {
       '/getting-started/': [
