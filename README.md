@@ -1,6 +1,10 @@
 ## amseldocs
 This is the vuepress construct for the documentation of the learning robot Amsel.
 
+### Description
+- For updating and working with the main page checkout the branch `baumeise`
+- The Amsel subpage is located in the branch `amsel`
+
 ### Clone project fork
 ```
 git clone git@github.com:<YOUR-USERNAME>/amseldocs.git
