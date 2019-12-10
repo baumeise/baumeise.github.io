@@ -12,9 +12,7 @@ cd public/.vuepress/dist
 git init
 git add -A
 
-printf "Enter commit message: "
-read any
-git commit -m "$any"
+git commit -m "Release latest changes"
 
 git push -f git@github.com:baumeise/baumeise.github.io.git master
 

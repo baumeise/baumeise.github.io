@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /baumeise_background.jpg
-actionText: Get Started →
+actionText: Explore Amsel →
 actionLink: https://baumeise.github.io/amsel/
 features:
 - title: Amsel 
