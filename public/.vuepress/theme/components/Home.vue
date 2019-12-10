@@ -69,12 +69,11 @@ export default {
 <style lang="stylus">
 .home
   padding $navbarHeight 0 0
-  height "calc(100vh - %s)" % $navbarHeight
   margin 0px auto
   display block
   .hero
     text-align center
-    overflow hidden
+    height "calc(100vh - %s)" % $navbarHeight
     img
       position relative
       height 100%
@@ -91,8 +90,8 @@ export default {
       line-height 1.3
       color lighten($textColor, 40%)
     .action-button
-      position: absolute
-      top 500px
+      position absolute
+      bottom 2.5rem
       left 50%
       transform translateX(-50%)
       display inline-block
@@ -140,14 +139,11 @@ export default {
 
 @media (max-width: $MQMobile)
   .home
+    overflow hidden
     .hero
+      overflow hidden
       .action-button
-        position relative
-        margin 0 auto
-        top auto
-        left auto
-        transform none
-        margin 2.5rem 0 0
+        bottom 2.5rem
     section 
       padding 0 2.5rem
     .features
@@ -159,6 +155,14 @@ export default {
 @media (max-width: $MQMobileNarrow)
   .home
     .hero
+      height auto
+      .action-button
+        position relative
+        margin 0 auto
+        top auto
+        left auto
+        transform none
+        margin 2.5rem 0 0
       img
         max-height 210px
         margin 0

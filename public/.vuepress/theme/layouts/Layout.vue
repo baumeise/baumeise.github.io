@@ -146,3 +146,9 @@ export default {
   }
 }
 </script>
+
+
+<style lang="stylus">
+.theme-container
+  overflow hidden
+</style>
