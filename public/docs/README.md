@@ -1,7 +1,5 @@
 ---
 title: Documentation
-sidebar: auto
-sidebarDepth: 2
 prev: /getting-started/
 next: /api/
 lang: en-US
@@ -9,4 +7,4 @@ lang: en-US
 
 ## About
 
-## Function reference
+This is the official Python library for the Amsel robot.

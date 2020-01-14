@@ -33,7 +33,7 @@ For showing information on the robot we chose a economical 0.96" OLED I2C displa
 
 |[3x 128x64 pixel 0.96 inch OLED I2C display](https://amzn.to/34MZr2N) | ~ **€ 13,00** |
 |----------------------------------------------------------------------|---------------|
-|[1x 128x64 pixel 0.96 inch OLED I2C display](https://amzn.to/33TRoQm) | ~ **€ 13,00** |
+|[1x 128x64 pixel 0.96 inch OLED I2C display](https://amzn.to/33TRoQm) | ~ **€ 6,50** |
 
 ## Ultrasonic sensor
 As a cheap possibility of measuring distance we chose a ultrasonic sensor, which is able to detects a minimal step of 0.3 cm.
