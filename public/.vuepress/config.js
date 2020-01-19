@@ -8,7 +8,7 @@ module.exports = {
     search: false,
     nav: [
       { text: 'Getting started', link: '/getting-started/' },
-      { text: 'Documentation', link: '/docs/methods' },
+      { text: 'Documentation', link: '/docs/' },
       { text: 'API Reference', link: '/api/' },
       { text: 'Hardware', link: '/hardware/' }
     ],
@@ -25,13 +25,13 @@ module.exports = {
             {
               title: 'Methods',
               collapsable: false,
-              sidebarDepth: 1,
+              sidebarDepth: 4,
               path: '/docs/methods'
             },
             {
               title: 'Classes',
               collapsable: false,
-              path: '/docs/classes/amsel',
+              path: '/docs/classes',
               children: [
                 '/docs/classes/amsel',
                 '/docs/classes/connection',

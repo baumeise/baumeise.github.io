@@ -1,6 +1,8 @@
 ---
 title: Methods
-sidebarDepth: 4
+displayHeaders: true
+prev: /getting-started/
+next: /docs/classes/
 lang: en-US
 ---
 

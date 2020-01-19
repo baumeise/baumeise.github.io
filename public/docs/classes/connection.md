@@ -1,6 +1,8 @@
 ---
 title: Connection
 sidebarDepth: 0
+prev: /docs/methods
+next: /api/
 lang: en-US
 ---
 

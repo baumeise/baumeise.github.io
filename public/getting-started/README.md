@@ -17,11 +17,15 @@ Go to [arduino.cc](https://www.arduino.cc/en/Main/Software) and download the lat
 ### Libraries for Arduino IDE
 - **ESP8266 Arduino tooling** <br>
   Insert this URL at "Additional Borad Manager URLs:" ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` in the preferences window.
+
 - **Libraries** <br>
   Open `Tools > Library Manager` and install the following libraries:
   - ArduinoOTA
   - Adafruit SSD1306
   - Adafruit Feather OLED
+
+- **Tools** <br>
+  - **ESP8266 File System:** Follow these [installation guide](https://github.com/esp8266/arduino-esp8266fs-plugin).
 
 ## Getting Started
 
@@ -39,6 +43,7 @@ git clone git@github.com:moritzgvt/amsel.git && cd amsel
 ### Upload data
 
 1. **Open the `amsel.ino` file with the arduino IDE**
+
 1. **Set board preferences in** `Tools`
    ```
    Board: NodeMCU (1.0 ESP-12E Module)
@@ -55,21 +60,30 @@ git clone git@github.com:moritzgvt/amsel.git && cd amsel
    SSL Support: All SSL Ciphers
    Port: <USB Port where the Borad is connected>
    ```
+
 1. **Upload the Amsel firmware by pressing the upload button in the top left corner**
+
+1. **Upload SPIFFS data: `Tools > ESP8266 SPIFFS Data Upload`**
+   ::: warning
+    Close serial monitor before uploading the data.
+   :::
 
 ### Connect to device
 
-Follow amsels instructions on the display.
+Follow Amsels instructions on the display.
 
 ### Usage
-Afterwards get started with the [amselpy](https://github.com/baumeise/amselpy) library. <br>
+
+Now get started with the [amselpy](https://github.com/baumeise/amselpy) library. <br>
 
 Clone this repository into your projects directory:
 ```sh
 git clone git@github.com:baumeise/AmselPy.git
 ```
 
-Start unsing it:
+::: tip
+You will find more information on how to use the [amselpy](https://github.com/baumeise/amselpy) library in the [documentation](/docs/).
+:::
 
 
 ``` python
