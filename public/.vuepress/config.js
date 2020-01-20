@@ -7,7 +7,6 @@ module.exports = {
     search: false,
     nav: [
       { text: 'About', link: '/about/' },
-      { text: 'Project', link: '/project/' },
       { text: 'Amsel', link: 'https://baumeise.github.io/amsel/' },
     ],
     sidebar: {
