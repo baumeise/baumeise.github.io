@@ -137,13 +137,23 @@ export default {
     text-align center
     color lighten($textColor, 25%)
 
+@media (max-width: 1024px)
+  .home
+    .hero
+      height auto
+      width 100%
+      .action-button
+        position relative
+        margin 0 auto
+        top auto
+        left auto
+        transform none
+        margin 2.5rem 0 0
+      img
+        margin 0
+        
 @media (max-width: $MQMobile)
   .home
-    overflow hidden
-    .hero
-      overflow hidden
-      .action-button
-        bottom 2.5rem
     section 
       padding 0 2.5rem
     .features
