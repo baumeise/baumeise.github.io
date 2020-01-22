@@ -151,6 +151,13 @@ export default {
         margin 2.5rem 0 0
       img
         margin 0
+        max-height 50vh
+
+@media (max-width: 812px) and (max-height: 414px)
+  .home
+    .hero
+      img 
+        max-height "calc(100vh - %s)" % $navbarHeight
         
 @media (max-width: $MQMobile)
   .home
@@ -174,7 +181,7 @@ export default {
         transform none
         margin 2.5rem 0 0
       img
-        max-height 210px
+        max-height 30vh
         margin 0
     section
       padding-left 1.5rem
