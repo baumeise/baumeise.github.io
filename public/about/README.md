@@ -32,6 +32,6 @@ Hochschule der Medien Stuttgart
 ## Project
 
 ### Proposal
-> "Robots for all" – Build a robot for freshmen students to learn python from.
+> "Robots for everybody" – Build a robot for freshmen students to learn python from.
 
 ## Documentation
