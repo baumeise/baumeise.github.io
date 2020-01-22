@@ -11,7 +11,8 @@ This is the official Python library for the Amsel robot.
 
 ## Usage
 
-Clone this repository into your projects directory:
+Get started with the [amselpy](https://pypi.org/project/amselpy/) library. <br>
+
 ```sh
 pip install amselpy
 ```
