@@ -13,7 +13,7 @@ This is the official Python library for the Amsel robot.
 
 Clone this repository into your projects directory:
 ```sh
-git clone git@github.com:baumeise/AmselPy.git
+pip install amselpy
 ```
 
 ``` python

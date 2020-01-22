@@ -44,26 +44,27 @@ git clone git@github.com:moritzgvt/amsel.git && cd amsel
 
 1. **Open the `amsel.ino` file with the arduino IDE**
 
-1. **Set board preferences in** `Tools`
-   ```
-   Board: NodeMCU (1.0 ESP-12E Module)
-   Builtin LED: 2
-   Upload speed: 115200
-   CPU Frequency: 80 MHz
-   Flash Size: 4MB (1MB SPIFFS)
-   Debug Port: Disabled
-   Debug Level: None
-   IwIP Variant: v2 Lower Memory
-   VTables: Flash
-   Exceptions: Legacy
-   Erase Flash: All Flash Contents
-   SSL Support: All SSL Ciphers
-   Port: <USB Port where the Borad is connected>
-   ```
+2. **Set board preferences in** `Tools`
 
-1. **Upload the Amsel firmware by pressing the upload button in the top left corner**
+```
+Board: NodeMCU (1.0 ESP-12E Module)
+Builtin LED: 2
+Upload speed: 115200
+CPU Frequency: 80 MHz
+Flash Size: 4MB (1MB SPIFFS)
+Debug Port: Disabled
+Debug Level: None
+IwIP Variant: v2 Lower Memory
+VTables: Flash
+Exceptions: Legacy
+Erase Flash: All Flash Contents
+SSL Support: All SSL Ciphers
+Port: <USB Port where the Borad is connected>
+```
 
-1. **Upload SPIFFS data: `Tools > ESP8266 SPIFFS Data Upload`**
+3. **Upload the Amsel firmware by pressing the upload button in the top left corner**
+
+4. **Upload SPIFFS data: `Tools > ESP8266 SPIFFS Data Upload`**
    ::: warning
     Close serial monitor before uploading the data.
    :::
@@ -76,9 +77,8 @@ Follow Amsels instructions on the display.
 
 Now get started with the [amselpy](https://github.com/baumeise/amselpy) library. <br>
 
-Clone this repository into your projects directory:
 ```sh
-git clone git@github.com:baumeise/AmselPy.git
+pip install amselpy
 ```
 
 ::: tip
