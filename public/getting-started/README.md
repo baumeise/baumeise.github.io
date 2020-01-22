@@ -75,16 +75,15 @@ Follow Amsels instructions on the display.
 
 ### Usage
 
-Now get started with the [amselpy](https://github.com/baumeise/amselpy) library. <br>
+Now get started with the [amselpy](https://pypi.org/project/amselpy/) library. <br>
+
+::: tip
+You will find more information on how to use the [amselpy](https://pypi.org/project/amselpy/) library in the [documentation](/docs/).
+:::
 
 ```sh
 pip install amselpy
 ```
-
-::: tip
-You will find more information on how to use the [amselpy](https://github.com/baumeise/amselpy) library in the [documentation](/docs/).
-:::
-
 
 ``` python
 # import library
