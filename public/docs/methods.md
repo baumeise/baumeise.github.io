@@ -15,6 +15,28 @@ lang: en-US
 
 Enables ntework functionality and setup
 
+### login
+<hr>
+
+Log into a local network
+
+#### Arguments:
+  - **ssid** <br>
+    Type: `String`
+  - **passphrase** <br>
+    Type: `String`
+
+#### Example
+  ```python
+  amsel.login("<NETWORK-SSID>", "<NETWORK-PASS>")
+  # Amsel CLI uses now 192.168.4.1 as IP
+  ```
+
+#### Class Reference
+
+- [Connection](/docs/classes/connection)
+
+
 ### use
 <hr>
 
@@ -223,6 +245,7 @@ When called the robot doesn't care about anything for the passed `duration`. It 
 ## Utilities
 
 Methods used by other methods.
+
 
 ### get
 <hr>
