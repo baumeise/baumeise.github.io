@@ -13,7 +13,7 @@ lang: en-US
 
 ## [Connection](/docs/classes/connection)
 
-Enables ntework functionality and setup
+Enables network functionality and setup
 
 ### login
 <hr>
@@ -37,83 +37,11 @@ Log into a local network
 - [Connection](/docs/classes/connection)
 
 
-### use
-<hr>
-
-Specify this to set a `newIP`.
-
-#### Arguments:
-  - **newIP** <br>
-    Type: `String`
-
-#### Example
-  ```python
-  amsel.use('192.168.4.1')
-  # Amsel CLI uses now 192.168.4.1 as IP
-  ```
-
-#### Class Reference
-
-- [Connection](/docs/classes/connection)
-
-
-### IP
-<hr>
-
-Returns the current IP.
-
-#### Example
-  ```python
-  amsel.IP()
-  # Amsel CLI uses 192.168.4.1 as IP
-  ```
-
-#### Class Reference
-
-- [Connection](/docs/classes/connection)
-
-
-### address
-<hr>
-
-Returns the current address.
-
-#### Example
-  ```python
-  amsel.address()
-  # Amsel CLI uses amsel.local as network address
-  ```
-
-#### Class Reference
-
-- [Connection](/docs/classes/connection)
-
-
-
 
 ## [Skills](/docs/classes/skills)
 
 Enables movement and other skills.
 
-
-### setSpeed
-<hr>
-
-Sets new default `speed`.
-
-#### Arguments:
-  - **newSpeed** <br>
-    Type: `Integer`
-
-#### Example
-  ```python
-  amsel.right(80)
-  # <amsel-moves-right-with-speed-80>
-  ```
-
-#### Class Reference
-
-- [Skills](/docs/classes/skills)
 
 
 ### forward
@@ -216,6 +144,172 @@ Stop all movement.
 - [Skills](/docs/classes/skills)
 
 
+### go
+<hr>
+
+Start an automatic run. To end it hit `ctrl-C`.
+
+#### Example
+  ```python
+  amsel.go()
+  # <amsel-drives-infinite>
+  ```
+
+#### Class Reference
+
+- [Skills](/docs/classes/skills)
+
+
+### print
+<hr>
+
+Use to print something on the display
+
+#### Arguments:
+  - **message** <br>
+    Type: `String`
+
+#### Example
+  ```python
+  amsel.print('Hello World!')
+  # <"Hello World!"-is-rendered-on-the-display>
+  ```
+
+#### Class Reference
+
+- [Skills](/docs/classes/skills)
+
+
+
+## Utilities
+
+Methods used by other methods.
+
+
+### use
+<hr>
+
+Specify this to set a `newIP`.
+
+#### Arguments:
+  - **newIP** <br>
+    Type: `String`
+
+#### Example
+  ```python
+  amsel.use('192.168.4.1')
+  # Amsel CLI uses now 192.168.4.1 as IP
+  ```
+
+#### Class Reference
+
+- [Utils](/docs/classes/utils)
+
+
+### setSpeed
+<hr>
+
+Sets new default `speed`.
+
+#### Arguments:
+  - **newSpeed** <br>
+    Type: `Integer`
+
+#### Example
+  ```python
+  amsel.setSpeed(80)
+  # Amsel CLI used 100 as default speed now it uses 80
+  ```
+
+#### Class Reference
+
+- [Utils](/docs/classes/utils)
+
+
+### getSpeed
+<hr>
+
+Returns the current default `speed` value.
+
+#### Example
+  ```python
+  amsel.getSpeed()
+  # 100
+  ```
+
+#### Class Reference
+
+- [Utils](/docs/classes/utils)
+
+
+### getDistance
+<hr>
+
+Returns the current distance.
+
+#### Example
+  ```python
+  amsel.getDistance()
+  # 18
+  ```
+
+#### Class Reference
+
+- [Utils](/docs/classes/utils)
+
+
+### get
+<hr>
+
+Performs a get request and returns the response. This can be used to call specific functions. Use their API `endpoint` as path to trigger it.
+
+#### Arguments:
+  - **endpoint** <br>
+    Type: `String`
+
+#### Example
+  ```python
+  amsel.get('/forward?speed=100')
+  # <amsel-moves-forward>
+  ```
+
+#### Class Reference
+
+- [Utlils](/docs/classes/utlils)
+
+
+### IP
+<hr>
+
+Returns the current IP.
+
+#### Example
+  ```python
+  amsel.IP()
+  # Amsel CLI uses 192.168.4.1 as IP
+  ```
+
+#### Class Reference
+
+- [Utlils](/docs/classes/utlils)
+
+
+### address
+<hr>
+
+Returns the current address.
+
+#### Example
+  ```python
+  amsel.address()
+  # Amsel CLI uses amsel.local as network address
+  ```
+
+#### Class Reference
+
+- [Utlils](/docs/classes/utlils)
+
+
 ### sleep
 <hr>
 
@@ -237,52 +331,4 @@ When called the robot doesn't care about anything for the passed `duration`. It 
 
 #### Class Reference
 
-- [Skills](/docs/classes/skills)
-
-
-
-
-## Utilities
-
-Methods used by other methods.
-
-
-### get
-<hr>
-
-Performs a get request and returns the response. This can be used to call specific functions. Use their API `endpoint` as path to trigger it.
-
-#### Arguments:
-  - **endpoint** <br>
-    Type: `String`
-
-#### Example
-  ```python
-  amsel.get('/forward?speed=100')
-  # <amsel-moves-forward>
-  ```
-
-#### Class Reference
-
-- [Connection](/docs/classes/connection)
-
-
-### enableHTTPConnection
-<hr>
-
-Provides a http connection to a specific `ip`.
-
-#### Arguments:
-  - **ip** <br>
-    Type: `String` <br>
-    Default: `local_ip`
-
-#### Example
-  ```python
-  amsel.enableHTTPConnection('192.168.0.100')
-  # <amsel-moves-forward>
-  ```
-
-#### Class Reference
-
-- [Connection](/docs/classes/connection)
+- [Utils](/docs/classes/utils)

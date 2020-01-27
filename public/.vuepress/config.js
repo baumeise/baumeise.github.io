@@ -35,7 +35,8 @@ module.exports = {
               children: [
                 '/docs/classes/amsel',
                 '/docs/classes/connection',
-                '/docs/classes/skills'
+                '/docs/classes/skills',
+                '/docs/classes/utils'
               ]
             }
           ]

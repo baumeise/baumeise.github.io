@@ -28,7 +28,7 @@ http://amsel.local/stop
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void stop() {
   drive_factor = 0;
@@ -57,7 +57,7 @@ http://amsel.local/forward?speed=120
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void handleForward(int speed) {
   drive_factor = (float)speed/100.0;
@@ -85,7 +85,7 @@ http://amsel.local/backward?speed=120
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void handleBackward(int speed) {
   drive_factor = -(float)speed/100.0;
@@ -113,7 +113,7 @@ http://amsel.local/left?speed=120
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void handleLeft(int speed) {
   steer_factor = (float)speed/100.0; 
@@ -141,7 +141,7 @@ http://amsel.local/right?speed=120
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void handleRight(int speed) {
   steer_factor = -(float)speed/100.0; 
@@ -173,7 +173,7 @@ http://amsel.local/distance
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void handleDistance() {
   digitalWrite(trigPin, LOW);
@@ -194,6 +194,37 @@ void handleDistance() {
 #### Library reference:
 
 - [distance](/docs/methods.html#distance)
+
+
+
+## Display
+
+Render something on the display.
+
+
+### /print
+<hr>
+
+Shows the passed parameter value on the display
+
+#### Example:
+```
+http://amsel.local/print
+```
+
+#### Function reference:
+```cpp
+// functions.ino
+
+void handlePrint(String text) {
+  userText = text;
+  server.send(200, "text/plain", "Amsel printed: \"" + text + "\"");
+}
+```
+
+#### Library reference:
+
+- [print](/docs/methods.html#print)
 
 
 
@@ -219,7 +250,7 @@ http://amsel.local/calibrate?l=0.0&r=0.7
 
 #### Function reference:
 ```cpp
-// methods.ino
+// functions.ino
 
 void handleCalibration() {
   String left_str = server.arg("l");
@@ -229,6 +260,8 @@ void handleCalibration() {
   
   float full_speed1 = (float)full_speed1*left_float;
   float full_speed2 = (float)full_speed2*right_float;
+
+  server.send(200, "text/plain", String(full_speed1, full_speed2));
 }
 ```
 
