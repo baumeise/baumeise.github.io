@@ -10,6 +10,8 @@
       @toggle-sidebar="toggleSidebar"
     />
 
+    <CookieConsent />
+
     <div
       class="sidebar-mask"
       @click="toggleSidebar(false)"
@@ -44,6 +46,11 @@
         #bottom
       />
     </Page>
+
+    <div class="footer">
+      <a href="/imprint/">Imprint</a> | <a href="/privacy/">Privacy Policy</a>
+    </div>
+
   </div>
 </template>
 
@@ -52,10 +59,11 @@ import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+import CookieConsent from '@theme/global-components/CookieConsent.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: { Home, Page, Sidebar, Navbar, CookieConsent },
 
   data () {
     return {
@@ -147,8 +155,15 @@ export default {
 }
 </script>
 
-
 <style lang="stylus">
-.theme-container
-  overflow hidden
+.footer
+  padding 2.5rem
+  border-top 1px solid $borderColor
+  text-align center
+  color lighten($textColor, 25%)
+  a
+    color lighten($textColor, 25%)
+    transition color .14s ease
+    &:hover
+      color lighten($textColor, 10%)
 </style>

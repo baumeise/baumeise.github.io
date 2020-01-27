@@ -74,6 +74,7 @@ export default {
   .hero
     text-align center
     height "calc(100vh - %s)" % $navbarHeight
+    overflow hidden
     img
       position relative
       height 100%
@@ -91,7 +92,7 @@ export default {
       color lighten($textColor, 40%)
     .action-button
       position absolute
-      bottom 2.5rem
+      bottom 10rem
       left 50%
       transform translateX(-50%)
       display inline-block
@@ -148,6 +149,7 @@ export default {
         top auto
         left auto
         transform none
+        bottom 2.5rem
         margin 2.5rem 0 0
       img
         margin 0

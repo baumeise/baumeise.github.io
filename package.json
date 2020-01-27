@@ -7,10 +7,12 @@
     "deploy": "./deploy.sh"
   },
   "dependencies": {
+    "js-cookie": "^2.2.1",
     "vue": "^2.6.10",
     "vue-server-renderer": "^2.6.10"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
     "vuepress": "^1.2.0"
   }
 }
