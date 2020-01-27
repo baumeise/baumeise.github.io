@@ -47,7 +47,7 @@
       />
     </Page>
 
-    <div class="footer">
+    <div v-if="!data.footer" class="footer">
       <a href="/imprint/">Imprint</a> | <a href="/privacy/">Privacy Policy</a>
     </div>
 
@@ -70,7 +70,6 @@ export default {
       isSidebarOpen: false
     }
   },
-
   computed: {
     shouldShowNavbar () {
       const { themeConfig } = this.$site
@@ -117,6 +116,10 @@ export default {
         },
         userPageClass
       ]
+    },
+
+    data () {
+      return this.$page.frontmatter
     }
   },
 

@@ -39,7 +39,8 @@
         class="footer"
         v-if="data.footer"
       >
-        {{ data.footer }}
+        {{ data.footer }} <br><br>
+        <a href="/imprint/">Imprint</a> | <a href="/privacy/">Privacy Policy</a>
       </div>
     </section>
   </main>
