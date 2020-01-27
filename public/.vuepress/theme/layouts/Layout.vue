@@ -47,7 +47,7 @@
       />
     </Page>
 
-    <div class="footer">
+    <div v-if="!data.footer" class="footer">
       <a href="https://baumeise.github.io/imprint/">Imprint</a> | <a href="https://baumeise.github.io/privacy/">Privacy Policy</a>
     </div>
   </div>
@@ -116,6 +116,10 @@ export default {
         },
         userPageClass
       ]
+    },
+
+    data () {
+      return this.$page.frontmatter
     }
   },
 

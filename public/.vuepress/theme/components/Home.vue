@@ -38,7 +38,8 @@
       class="footer"
       v-if="data.footer"
     >
-      {{ data.footer }}
+      {{ data.footer }}<br><br>
+      <a href="https://baumeise.github.io/imprint/">Imprint</a> | <a href="https://baumeise.github.io/privacy/">Privacy Policy</a>
     </div>
   </main>
 </template>
