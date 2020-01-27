@@ -39,7 +39,11 @@ dialog
   border none
   z-index 99
   span
+    font-size 0.9rem
     line-height 50px
+    a
+      color inherit
+      text-decoration underline
   button
     position relative
     width 200px

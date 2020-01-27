@@ -1,6 +1,6 @@
 <template>
   <Modal v-if="this.showModal" :visible="this.showModal" @seen="setCookie">
-    By using this site you agree to our policy
+    By using this site you agree to our <a href="https://baumeise.github.io/privacy/">privacy policy</a>. This website is using cookies.
   </Modal>
 </template>
 
