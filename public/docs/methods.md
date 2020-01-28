@@ -15,28 +15,6 @@ lang: en-US
 
 Enables network functionality and setup
 
-### login
-<hr>
-
-Log into a local network
-
-#### Arguments:
-  - **ssid** <br>
-    Type: `String`
-  - **passphrase** <br>
-    Type: `String`
-
-#### Example
-  ```python
-  amsel.login("<NETWORK-SSID>", "<NETWORK-PASS>")
-  # Amsel CLI uses now 192.168.4.1 as IP
-  ```
-
-#### Class Reference
-
-- [Connection](/docs/classes/connection)
-
-
 
 ## [Skills](/docs/classes/skills)
 
@@ -173,6 +151,22 @@ Use to print something on the display
   ```python
   amsel.print('Hello World!')
   # <"Hello World!"-is-rendered-on-the-display>
+  ```
+
+#### Class Reference
+
+- [Skills](/docs/classes/skills)
+
+
+### clear
+<hr>
+
+Clear the display
+
+#### Example
+  ```python
+  amsel.clear()
+  # <display-is-cleared>
   ```
 
 #### Class Reference

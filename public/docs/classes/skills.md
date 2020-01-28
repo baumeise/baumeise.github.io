@@ -84,7 +84,12 @@ class Skills():
     endpoint = "/left?string=%s" % text
     response = self.get(endpoint)
     return response.status_code
-    
+
+  # Clear the display
+  def clear(self):
+    endpoint = "/print?string="
+    response = self.get(endpoint)
+    return response.status_code
 ```
 
 ## Method Reference
@@ -96,6 +101,7 @@ class Skills():
 - [stop](/docs/methods.html#stop)
 - [go](/docs/methods.html#go)
 - [print](/docs/methods.html#print)
+- [clear](/docs/methods.html#clear)
 
 **See also:**
 - [Amsel](/docs/classes/amsel)
