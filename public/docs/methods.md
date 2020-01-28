@@ -13,7 +13,7 @@ lang: en-US
 
 ## [Connection](/docs/classes/connection)
 
-Enables network functionality and setup
+Enables network functionality and setup.
 
 
 ## [Skills](/docs/classes/skills)
@@ -130,7 +130,7 @@ Start an automatic run. To end it hit `ctrl-C`.
 #### Example
   ```python
   amsel.go()
-  # <amsel-drives-infinite>
+  # <amsel-drives-infinitely>
   ```
 
 #### Class Reference
