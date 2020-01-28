@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /logo.png
-actionText: Get Started →
-actionLink: /getting-started/
+actionText: Start building an Amsel →
+actionLink: /instructions/
 features:
 - title: Inexpensive kit
   details: The used components are focused on a minimal price to enable each student to afford a own Amsel kit.

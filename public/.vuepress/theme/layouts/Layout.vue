@@ -159,6 +159,21 @@ export default {
 </script>
 
 <style lang="stylus">
+.md_image-container
+  display flex
+  flex-direction row
+  justify-content space-between
+  p
+    padding 0 10px
+
+.col_3
+  img
+    height 200px
+
+.col_2
+  img
+    height 380px
+
 .footer
   padding 2.5rem
   border-top 1px solid $borderColor

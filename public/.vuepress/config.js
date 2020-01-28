@@ -7,12 +7,16 @@ module.exports = {
     orgLogo: '/baumeise_signet.svg',
     search: false,
     nav: [
+      { text: 'Building Instructions', link: '/instructions/' },
       { text: 'Getting started', link: '/getting-started/' },
       { text: 'Documentation', link: '/docs/' },
       { text: 'API Reference', link: '/api/' },
       { text: 'Hardware', link: '/hardware/' }
     ],
     sidebar: {
+      '/instructions/': {
+        sidebar: 'auto'
+      },
       '/getting-started/': {
         sidebar: 'auto'
       },
