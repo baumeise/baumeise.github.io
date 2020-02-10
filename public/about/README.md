@@ -88,7 +88,7 @@ Versioning the project work on Github was also a good decision, which should pay
 
 ![Baumeise team at the Media Night](./baumeise_team_mn.jpg "Team Baumeise")
 
-The finally delivered product was a DIY 3D-printed robot including everything from [building instructions :clipboard:](https://baumeise.github.io/amsel/instructions) to its [open source firmware :file_cabinet:](https://github.com/baumeise/amsel) as well as an [iOS application :iphone:](https://github.com/baumeise/app), a [documentation :vhs:](https://baumeise.github.io/amsel/getting-started) and an indexed [python package :package:](https://pypi.org/project/amselpy/).
+The finally delivered product was a DIY 3D-printed robot including everything from [building instructions :clipboard:](https://baumeise.github.io/amsel/instructions) to its [open source firmware :file_cabinet:](https://github.com/baumeise/amsel) as well as an [iOS application :iphone:](https://github.com/baumeise/app), [detailed developer docs :vhs:](https://baumeise.github.io/amsel/getting-started) and an indexed [python package :package:](https://pypi.org/project/amselpy/).
   
 Further information are provided on the [documentation page](https://baumeise.github.io/amsel).
 
