@@ -9,7 +9,7 @@ This is the vuepress construct for the documentation of the learning robot Amsel
 
 ## How to commit
 
-1. Fork the repository
+At first: Fork the repository with the button located top right on the github repository page.
 
 ```sh
 # clone your project fork
