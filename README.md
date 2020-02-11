@@ -6,21 +6,37 @@ This is the vuepress construct for the documentation of the learning robot Amsel
 - The Amsel subpage is located in the branch `amsel`
 
 ### How to commit
-Fork the repository
+
+1. Fork the repository
+
+2. Clone your project fork
 
 ```sh
-# clone project fork
 git clone git@github.com:<YOUR-USERNAME>/baumeise.github.io.git
 ```
 
 ### Project setup
-```
+
+3. Install node_modules
+
+```sh
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
+
+4. Run in development mode
+
+```sh
 npm run dev
+```
+
+Your local clone should now be available on http://localhost:8080.
+
+To switch from the baumeise site to the amsel site just checkout the desired branch
+
+```sh
+git checkout <DESIRED-BRANCH>
 ```
 
 ### Release changes
