@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Baumeise',
-  description: 'Learn coding while plying with a robot!',
+  description: 'Learn coding while playing with a robot!',
   base: '/',
   themeConfig: {
     logo: '/baumeise_signet.svg',
