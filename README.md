@@ -15,16 +15,16 @@ This is the vuepress construct for the documentation of the learning robot Amsel
 # clone your project fork
 git clone git@github.com:<YOUR-USERNAME>/baumeise.github.io.git
 
-# checkout branch baumeise & install node modules
-git checkout -b baumeise origin/baumeise && npm install
+# go to directory
+cd baumeise.guithub.io
 
-# checkout branch baumeise & install node modules
-git checkout -b amsel origin/amsel && npm install
-```
+# install node modules
+npm install
 
-### Compiles and hot-reloads for development
+# checkout branch amsel
+git checkout -b amsel origin/amsel
 
-```sh
+# compiles and hot-reloads for development
 npm run dev
 ```
 
