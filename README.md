@@ -7,7 +7,7 @@ This is the vuepress construct for the documentation of the learning robot Amsel
 - For updating and working with the main page checkout the branch `baumeise`
 - The Amsel subpage is located in the branch `amsel`
 
-### How to commit
+## How to commit
 
 1. Fork the repository
 
@@ -36,7 +36,7 @@ For changing the website from baumeise to amsel or vice versa checkout the desir
 git checkout <DESIRED-BRANCH>
 ```
 
-### Release changes
+## Release changes
 
 For releasing changes open a pull request against the branches `baumeise.github.io/baumeise` or `baumeise.github.io/amsel`.
 
