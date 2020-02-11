@@ -10,7 +10,7 @@ Fork the repository
 
 ```sh
 # clone project fork
-git clone git@github.com:<YOUR-USERNAME>/bauemeise.github.io.git
+git clone git@github.com:<YOUR-USERNAME>/baumeise.github.io.git
 ```
 
 ### Project setup
