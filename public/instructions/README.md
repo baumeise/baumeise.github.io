@@ -43,7 +43,7 @@ This building instruction helps the students to build the robot by themselves.
 | Soldering Iron | 1x 3D printed Amsel Chassis + Cover |
 | Screwdriver    | 2x 3V - 6V 2 axis TT Motor + Wheels |
 | Pliers         | 1x L298 Dual H-Bridge               |
-| Sticky Tape    | 1x Powerbank 5V-OUT                 |
+| Sticky Tape    | 1x Powerbank 5V-OUT/Battery-Case    |
 | 3D Printer     | 1x USB Charging Cable               |
 |                | 1x 0,96 inch OLED I2C Display       |
 |                | 1x HC-SR04 Ultrasonic Sensor        |
@@ -149,8 +149,8 @@ The other components of the robot, such as the OLED display, the H-bridge and th
 |---------|---------|
 | GND     |     GND |
 | VCC     |     3V3 |
-| SDA     |     D1  |
-| SCL     |     D2  |
+| SDA     |     D2  |
+| SCL     |     D1  |
 
 | H-Bridge | ESP8266 |
 |----------|---------|
@@ -173,7 +173,7 @@ The other components of the robot, such as the OLED display, the H-bridge and th
 
 <hr>
 
-### 6. **Switch**  
+### 6. **Switch** (optional)  
 After everything is wired up, take the lid of the robot and stick the OLED display from below with adhesive tape in the provided recess. Then place the switch on the lid. The switch must now be connected to the H-bridge and the USB charging cable (in this case the battery) as follows: 
 
 <div class="md_image-container">

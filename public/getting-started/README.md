@@ -37,7 +37,7 @@ Execute the following in your terminal
 cd /path/to/your/directory/
 
 # clone into repository
-git clone git@github.com:moritzgvt/amsel.git && cd amsel
+git clone https://github.com/baumeise/amsel.git && cd amsel
 ```
 
 ### Upload data
@@ -51,7 +51,7 @@ Board: NodeMCU (1.0 ESP-12E Module)
 Builtin LED: 2
 Upload speed: 115200
 CPU Frequency: 80 MHz
-Flash Size: 4MB (1MB SPIFFS)
+Flash Size: 4MB (FS: 1MB)
 Debug Port: Disabled
 Debug Level: None
 IwIP Variant: v2 Lower Memory
