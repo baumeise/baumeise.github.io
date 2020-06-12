@@ -67,7 +67,11 @@ Port: <USB Port where the Borad is connected>
 
 4. **Upload SPIFFS data: `Tools > ESP8266 SPIFFS Data Upload`**
    ::: warning
-    Close serial monitor before uploading the data.
+    Close serial monitor while uploading data.
+   :::
+
+   ::: tip
+    If you experience the following error, plaese unplug the motor controller board on pins `VIN` & `G`. Reconnect them after the upload.
    :::
 
 ### Connect to device
