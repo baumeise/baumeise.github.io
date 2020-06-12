@@ -23,6 +23,7 @@ Go to [arduino.cc](https://www.arduino.cc/en/Main/Software) and download the lat
   - ArduinoOTA
   - Adafruit SSD1306
   - Adafruit Feather OLED
+  - ESP8266 and ESP32 OLED driver for SSD1306 displays
 
 - **Tools** <br>
   - **ESP8266 File System:** Follow these [installation guide](https://github.com/esp8266/arduino-esp8266fs-plugin).
