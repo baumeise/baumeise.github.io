@@ -161,6 +161,7 @@ The other components of the robot, such as the OLED display, the H-bridge and th
 | IN2      |     D7  |
 | IN3      |     D6  |
 | IN4      |     D5  |
+| ENB      |     D3  |
 
 | Sensor | H-Bridge | ESP8266 |
 |--------|----------|---------|
