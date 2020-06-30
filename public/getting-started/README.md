@@ -80,6 +80,22 @@ Follow Amsels instructions on the display.
 
 ### Usage
 
+### with PyCharm
+
+Make sure you have the [newest Python Version](https://www.python.org/downloads/) installed (tested with 3.7.5).
+
+::: danger Important
+Click the `Add Python to PATH` option in the installer.
+:::
+
+After the successful installation open your PyCharm project and change the `Base Interpreter` in `Preferences > Virtualenv Environment` to the new python version. If you only have on python version it should be set correctly. You can check you current set version by executing `python --version` in your terminal.
+
+### with command line
+
+Maybe you rather use a more basic approach you can just install the current python version (tested with 3.7.5) and execute your scripts with the `python` command from the command line.
+
+### AmselPy
+
 Now get started with the [amselpy](https://pypi.org/project/amselpy/) library. <br>
 
 ::: tip
